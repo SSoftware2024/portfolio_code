@@ -1,0 +1,19 @@
+.dark #navigation {
+    background-color: RGB(0, 4, 25);
+    display: flex;
+    justify-content: center;
+    height: auto;
+
+    .mobile {
+        padding: 15px 10px;
+    }
+
+    .desktop {
+        ul {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding: 15px 0;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        overflow-x: hidden;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    div {
+        box-sizing: border-box;
+    }
+
+    html.dark {
+        @apply text-neutral-200;
+        @apply bg-slate-600;
+        /* @apply text-indigo-200; */
+    }
+
+}
