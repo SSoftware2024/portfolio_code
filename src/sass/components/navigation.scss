@@ -1,5 +1,5 @@
-.dark #navigation {
-    background-color: RGB(0, 4, 25);
+#navigation {
+    background-color: rgb(2, 16, 90);
     display: flex;
     justify-content: center;
     height: auto;
@@ -16,4 +16,7 @@
             padding: 15px 0;
         }
     }
+}
+.dark #navigation {
+    background-color: rgb(0, 4, 25);
 }

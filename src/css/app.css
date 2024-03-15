@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
     * {
         overflow-x: hidden;
+        
     }
 
     html,
@@ -14,8 +16,11 @@
 
     div {
         box-sizing: border-box;
+        
     }
-
+    html{
+        @apply text-neutral-200;
+    }
     html.dark {
         @apply text-neutral-200;
         @apply bg-slate-600;

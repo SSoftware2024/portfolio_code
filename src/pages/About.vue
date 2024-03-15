@@ -3,14 +3,14 @@
         <h1 class="text-2xl font-bold mb-3 text-center">Sobre</h1>
         <p class="text-justify">
             Olá! {{ getGreeting() }}! Me chamo Tiago Alves tenho {{ myPerson.age }} anos sou <span
-                class="font-bold text-cyan-400">Desenvolvedor Web
+                class="font-bold text-blue-900 dark:text-cyan-400">Desenvolvedor Web
                 ‘back-end’ com PHP, graduado em Sistemas de Informação pela UNINASSAU</span>, tenho <span
-                class="font-bold text-cyan-400"> {{ myPerson.time_work }} anos de experiência</span> no mercado contando
+                class="font-bold text-blue-900 dark:text-cyan-400"> {{ myPerson.time_work }} anos de experiência</span> no mercado contando
             com estágios, empregos e 'freelancers'. Nesta curta estrada tive contato com diversas tecnologias, as quais
             informo na seção de habilidades. Destas habilidades minha paixão no ramo ‘back-end’ encontra-se no PHP, pois
             sempre me atendeu bem, comunidade ativa, fácil documentação entre outras vantagens. Outras paixões que
             tenho, saindo do ramo de desenvolvimento, é a lingua inglesa. Almejo aprender a idioma fluentemente, estou
-            <span class="font-bold text-cyan-400">cursando inglês a {{ myPerson.englis_course_time }} meses na
+            <span class="font-bold text-blue-900 dark:text-cyan-400">cursando inglês a {{ myPerson.englis_course_time }} meses na
                 WIZZARD</span> e como lazer toco saxofone, afinal quem não gosta de uma boa música​!? 🎷​🎵
         </p>
     </Card>
