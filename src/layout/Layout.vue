@@ -15,7 +15,7 @@
             <Navigation></Navigation>
         </div>
         <div class="flex justify-center">
-            <div class="custom-container mt-3 mb-3">
+            <div class="custom-container mt-3 mb-3 px-2 sm:px-0">
                 <div class="w-full px-2 py-3 flex justify-center glassmorph">
                     <a href="https://api.whatsapp.com/send?phone=558899484317&text=Ol%C3%A1%20me%20chamo%20%3Cnome%3E,%20consegui%20seu%20contato%20pelo%20seu%20'portfolio'" target="_blank" class="">
                         <font-awesome-icon :icon="faWhatsapp" class="text-white text-2xl mr-3 hover:text-green-400"></font-awesome-icon>
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="custom-container mt-2 mb-3">
+            <div class="custom-container mt-2 mb-3 px-2 sm:px-0">
                 <router-view></router-view>
             </div>
         </div>
