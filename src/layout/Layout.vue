@@ -34,6 +34,10 @@
                         <font-awesome-icon :icon="faGithub"
                             class="text-white text-2xl mr-3 hover:text-black"></font-awesome-icon>
                     </a>
+                    <a :href="CV" target="_blank">
+                        <font-awesome-icon :icon="faFilePdf"
+                            class="text-white text-2xl mr-3 hover:text-red-500"></font-awesome-icon>
+                    </a>
                 </div>
 
                 <div class="absolute top-[15px] left-[15px] cursor-pointer" @click="changeTheme">
@@ -58,8 +62,9 @@ import { onMounted } from 'vue';
 import '@/sass/layout.scss';
 import video from '@/assets/particles2.mp4';
 import img_profile from '@/assets/profile_30.png';
+import CV from '@/assets/cv.pdf'
 import Typewriter from 'typewriter-effect/dist/core';
-import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faSun, faMoon, faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp, faTelegram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 //COMPONENTS
 import Navigation from '../components/Navigation.vue';
