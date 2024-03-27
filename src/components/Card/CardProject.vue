@@ -13,7 +13,8 @@
         </div>
         <div class="flex justify-end mt-4">
             <a :href="github" target="_blank" class="bg-blue-600 rounded-md mr-2 p-1 hover:bg-blue-800 ">GITHUB</a> <!-- link do video no markdown do github -->
-            <a :href="online" target="_blank" v-if="online" class="bg-green-600 rounded-md p-1 hover:bg-green-800">ONLINE</a>
+            <a :href="online" target="_blank" v-if="online" class="bg-green-600 rounded-md mr-2 p-1 hover:bg-green-800">ONLINE</a>
+            <a :href="video" target="_blank" v-if="video" class="bg-red-600 rounded-md p-1 hover:bg-red-800">VÍDEO</a>
         </div>
     </div>
 </template>
@@ -39,6 +40,10 @@ defineProps({
         default:''
     },
     online: {
+        type: String,
+        default:''
+    },
+    video: {
         type: String,
         default:''
     }
