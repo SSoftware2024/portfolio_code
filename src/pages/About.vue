@@ -9,7 +9,7 @@
             com estágios, empregos e 'freelancers'. Nesta curta estrada tive contato com diversas tecnologias, as quais
             informo na seção de habilidades. Destas habilidades minha paixão no ramo ‘back-end’ encontra-se no PHP, pois
             sempre me atendeu bem, comunidade ativa, fácil documentação entre outras vantagens. Outras paixões que
-            tenho, saindo do ramo de desenvolvimento, é a lingua inglesa. Almejo aprender a idioma fluentemente, estou
+            tenho, saindo do ramo de desenvolvimento, é a lingua inglesa. Almejo aprender o idioma fluentemente, estou
             <span class="font-bold text-blue-900 dark:text-cyan-400">cursando inglês a {{ myPerson.englis_course_time }} meses na
                 WIZZARD</span> e como lazer toco saxofone, afinal quem não gosta de uma boa música​!? 🎷​🎵
         </p>
