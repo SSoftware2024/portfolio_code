@@ -33,6 +33,7 @@ import docker from '@/assets/images/docker.png';
 //projects
 import portfolio from '@/assets/images/projects/portfolio.svg';
 import toDo from '@/assets/images/projects/toDo.png';
+import marvel from '@/assets/images/projects/marvel.png';
 
 const images = {
     vite,
@@ -69,7 +70,8 @@ const images = {
     mysql,
     projects: {
         portfolio,
-        toDo
+        toDo,
+        marvel
     }
 }
 export default images;
