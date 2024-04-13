@@ -1,22 +1,24 @@
 <template>
     <Card class="relative border border-neutral-200">
         <h1 class="relative text-2xl font-bold mb-3 text-center z-10">Experiência</h1>
-        <CardExperience :img="VWP" dateStart="2021-09-01" dateEnd="2023-07-01" level="Pleno"
+        <CardExperience :img="VWP" dateStart="2022-10-01" dateEnd="2024-03-01" level="Pleno"
             title="VWP Agência Digital" link="https://agenciavwp.com.br/" class="border border-white mb-3">
             <p class="text-justify">
-                Tive um contato inicial com configurações servidores: hospedagem compartilhada, vps e comandos linux. Com o tempo aprendi Docker para facilitar na vps, cheguei a usar um pouco o 'laradock'.
-                Trabalhei com criação de sistema desde a modelagem, versionamento a lançamento de versão estável.
+                Criação e consumo de APIs.<br>
+                Criação autenticação e autorizações de usuários de um a muitos(guards cnfigurados). <br>
+                Criação de CronJobs e eventos em tempo real com uso de filas, CronJob já cheguei a configurar em servidor.<br>
+                Atualizei sistemas legados desde versões antigas do laravel a sistemas sem framework, apenas o
+                php.<br>
+                Tive um contato inicial com configurações servidores: hospedagem compartilhada, vps e comandos linux. Com o tempo aprendi Docker para facilitar na vps, cheguei a usar um pouco o 'laradock'.<br>
+                Trabalhei com criação de sistema desde a modelagem, versionamento a lançamento de versão estável.<br>
             </p>
         </CardExperience>
-        <CardExperience :img="DC" dateStart="2019-03-01" dateEnd="2021-06-01" level="Júnior" title="DC Tecnologia"
+        <CardExperience :img="DC" dateStart="2022-02-01" dateEnd="2022-08-01" level="Júnior" title="DC Tecnologia"
             link="https://tecnologiadc.com.br/" class="border border-white">
             <p class="text-justify">
-                Atuei em: Criação de layouts com responsividade (front-end).
-                Criação e consumo de APIs.
-                Criação autenticação e autorizações de usuários de um a muitos(guards cnfigurados). 
-                Criação de CronJobs e eventos em tempo real com uso de filas, CronJob já cheguei a configurar em servidor.
-                Atualizei sistemas legados desde versões antigas do laravel a sistemas sem framework, apenas o
-                php. <br> Antes de fazer a mudança de trabalho por condições melhores, cheguei a pegar um pouco de comandos linux com ubunto.
+                Atuei em: Criação de layouts com responsividade (front-end).<br>
+                Operações de CRUD juntamente com raciocínio lógico de como devia ser feito<br>
+                Tive conhecimento de trabalhar com git em equipe, posteriormente estudei o gitflow<br>
             </p>
         </CardExperience>
     </Card>
